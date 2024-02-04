@@ -1,0 +1,9 @@
+import java.util.Random;
+
+public class RandomNumbers {
+    public static void main(String[] args) {
+        Random random = new Random();
+        int randomNumber = random.nextInt(90000) + 10000; // Generates a random number between 10000 and 99999
+        System.out.println("Random 5-digit number: " + randomNumber);
+    }
+}
